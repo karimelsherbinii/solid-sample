@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:solid/services/task_service.dart';
 
@@ -28,6 +30,7 @@ class _TaskListState extends State<TaskList> {
                 : Icons.check_box_outline_blank),
             onPressed: () {
               final updatedTask = task.copyWith(isCompleted: !task.isCompleted);
+              log(updatedTask.isCompleted.toString());
               widget.taskService.updateTask(updatedTask);
               setState(() {});
             },

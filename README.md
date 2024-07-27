@@ -1,17 +1,20 @@
-# solid
+# S O L I D
 
-A new Flutter project.
+TODO App To Explain Solid Principles
 
-## Getting Started
+ =====================================
 
-This project is a starting point for a Flutter application.
+مبدأ المسؤولية الواحدة (SRP)
+نفصل منطق الأعمال (مثل إدارة المهام) عن واجهة المستخدم.
 
-A few resources to get you started if this is your first Flutter project:
+مبدأ الفتح/الإغلاق (OCP)
+نضيف إمكانيات جديدة (مثل فئات المهام) دون تعديل الكود الموجود.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+مبدأ استبدال ليسكوف (LSP)
+نستخدم الكائنات الفرعية بدون تعديل كود العميل.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# solid-simple
+مبدأ فصل الواجهات (ISP)
+نفصل الواجهات الكبيرة إلى واجهات أصغر ومخصصة.
+
+مبدأ عكس الاعتماد (DIP)
+نفصل التفاصيل عن التجريدات، ونعتمد على التجريدات.
